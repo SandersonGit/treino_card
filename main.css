@@ -1,0 +1,113 @@
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 250, 230);
+    box-shadow: 15px 15px 15px black ;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+} 
+
+.conatiner-descricao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+
+.btn {
+    background-color: rgb(8, 8, 8);
+    width: 90px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.btn p a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MedievalSharp', cursive;
+    
+   
+   
+
+
+}
+#mickey {
+    color: white;
+    background-color: black;
+}
+#mickey .btn {
+    background-color: white;
+    
+}
+
+#mickey .btn p a {
+    color: black;
+}
+
+#donald {
+    color: rgb(255, 227, 97);
+    background-color: rgb(1, 139, 201);
+}
+#donald .btn {
+    background-color:rgb(255, 227, 97);
+    
+}
+
+#donald .btn p a {
+    color: rgb(1, 139, 201);
+}
+
+#pateta {
+    color: #CBDC58;
+    background-color: rgb(245, 132, 66);
+}
+#pateta .btn {
+    background-color:#CBDC58;
+    
+}
+
+#pateta .btn p a {
+    color: rgb(245, 132, 66);
+}
+
