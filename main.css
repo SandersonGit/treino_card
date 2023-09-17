@@ -21,6 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-image: url(assets/wallpaper.jpg);
+    
 }
 
 .container {
@@ -32,16 +34,21 @@ body {
     justify-content: center;
     background-color: rgb(190, 250, 230);
     box-shadow: 15px 15px 15px black ;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .img {
     width: 100%;
     height: 100%;
+    
 }
 
 .img img{
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    margin-right: 40px;
 } 
 
 .conatiner-descricao {
